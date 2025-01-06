@@ -2,18 +2,18 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.get('/joyboy/elementos', (req, res) => {
-    res.json(['elemento1', 'elemento2', 'elemento3', 'ele                mento4', 'elemento5']);
+app.get('/onepiece/elements', (req, res) => {
+    res.json(['One Piece', 'Akuma no mi', 'Ancient weapons', 'Teriunbytos', 'Lunares', 'Void century']);
 });
 
-app.get('/joyboy/conceitos', (req, res) => {
-    res.json(['conceito1', 'conceito2', 'conceito3', 'conceito4', 'conceito5']);
+app.get('/onepiece/concepts', (req, res) => {
+    res.json(['Will of D', 'Joyboy', 'Haki']);
 });
 
-app.get('/joyboy/personagens', (req, res) => {
-    res.json(['personagem1', 'personagem2', 'personagem3', 'personagem4', 'personagem5']);
+app.get('/onepiece/character', (req, res) => {
+    res.json(['Nika', 'Imu-sama', 'Zunesha', 'Monkey D Dragon', 'Shirahoshi',  'Gold D Joger', 'Xebec', 'Marshall D Teach']);
 });
 
 app.listen(port, () => {
-    console.log('Servidor rodando em http://localhost:' + port);
+    console.log('Server running on http://localhost:' + port);
 });
