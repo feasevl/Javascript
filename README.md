@@ -35,7 +35,7 @@ curl -X PUT "http://localhost:3000/joyboy/concepts/Haki" \
 
 curl -X PUT "http://localhost:3000/joyboy/characters/Shirahoshi" \
 -H "Content-Type: application/json" \
--d '{"personagem": "Silver Reyleigh"}'
+-d '{"characters": "Silver Reyleigh"}'
 
 DELETE api CURL: 
 
